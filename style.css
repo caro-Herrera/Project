@@ -1,4 +1,13 @@
+h1 { color:blue;
 
+}
+h2 { color:rgb(7, 7, 182);
 
+}
+h3 {
+    color: rgb(12, 89, 245);
+}
+
+body{background-color:aliceblue;}
 
 footer{background-color: blue;}
