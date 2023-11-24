@@ -1,13 +1,132 @@
-h1 { color:blue;
-
+html {
+    font-family: 'Exo', sans-serif;
 }
-h2 { color:rgb(7, 7, 182);
 
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
 }
+
+body{
+    margin: 0;
+    background-color:aliceblue;}
+
+#title { 
+    color:aliceblue; text-align: center; 
+    background-color: darkblue; padding: 20px;
+    width: 100%;
+}
+
+h2 {
+    color:rgb(7, 7, 182); padding: 15px;
+}
+
 h3 {
-    color: rgb(12, 89, 245);
+    color:blue; padding: 15px;
 }
 
-body{background-color:aliceblue;}
+p.text {
+    color:fuchsia; padding: 15px;
+}
 
-footer{background-color: blue;}
+p.hobbies {
+    color:darkmagenta; padding: 15px;
+}
+/* multiple font color tests*/
+
+nav ul {
+    background-color: rgb(207, 204, 204);
+    width: 100%; list-style: none;
+    text-align: center;
+} 
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5%; width: 150px;
+}
+
+nav li :hover {
+    background-color: darkblue;
+    color:aliceblue;
+    transition: all ease 300ms;
+}
+
+nav ul a {
+    color:darkblue;
+}
+
+/*menu fixed*/
+
+table {
+    border-collapse: collapse; cursor: pointer;
+    width: 50%; margin: 0 auto; padding: 15px;
+}
+
+tr {
+    transition: all ease 300ms;
+}
+
+tr :hover {
+    background-color:dimgrey;
+}
+
+table th {
+    background-color: darkblue; color: #fff;
+    border: 1px solid #fff; padding: 15px;   
+}
+
+
+table td {
+    background-color:rgb(207, 204, 204);
+    color: darkblue; border: 1px solid #fff;
+    padding: 10px; text-align: center;
+}
+
+/*Table finished*/
+
+section li {
+    color: fuchsia; margin-left: 30px;
+}
+
+div li {
+    color:darkmagenta; margin-left: 30px;
+}
+
+.image {
+    width: 200px;
+}
+
+.picture {
+    text-align: center;
+}
+
+.size {
+    font-size: 10px;
+}
+
+/*pending completion of footer*/
+
+footer {
+    background-color:darkblue; width: 100%;
+    color: aliceblue; margin-top: 40px;
+    list-style: none;
+}
+
+footer h2 {
+    color:aliceblue; text-align: center; padding: 5px;
+}
+
+footer li {
+    text-align: center; padding: 5px;
+}
+
+footer p{
+    text-align: center; padding: 5px;
+    font-size: 10px;
+}
+

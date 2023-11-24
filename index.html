@@ -3,21 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Project</title>
-     <link rel="stylesheet" href="style.css">
-     
+    <title>Simple Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">     
 </head>
+
 <body>
-  <section>
-    <h1>CAROLAING HERRERA</h1>
-    <ol>
-      <li>About Me</li>
-      <li>Favorite Hobbies</li>
-      <li>My business</li>
-   </ol>
-  </section>
-  <h2>About Me</h2>
-    <p>I was born in Bogota Colombia, three months ago I migrated to Canada with my husband and two children, I am studying at an institute called SAIT.</p>
+  <h1 id="title">CAROLAING HERRERA</h1>
+    <nav>
+      <ul>
+        <li><a href="">About Me</a></li>
+        <li><a href="">Favorite Hobbies</a></li>
+        <li><a href="">My business</a></li>
+      </ul>
+    </nav>
+<!-- changes to the list -->
+   <h2>About Me</h2>
+    <p class="text">I was born in Bogota Colombia, three months ago I migrated to Canada with my husband and two children, I am studying at an institute called SAIT.</p>
+
+<!-- changes to the date format -->
+
 
     <table border="1">
       <tr>
@@ -28,76 +35,71 @@
           <th>EVENT</th>
       </tr>
       <tr>
-          <td>Sept. 10/11</td>
+          <td>September 10 - 2011</td>
           <td>Birth of my first Child</td>       
       </tr>
       <tr>
-        <td>Oct. 26/13</td>
+        <td>October 26 - 2013</td>
         <td>Death of my Father</td>
       </tr>
       <tr>
-        <td>Mar. 12/14</td>
+        <td>March 12 - 2014</td>
         <td>Birth of my second Child</td>
       </tr>
     </table>
+<section>
+   <h2>Favorite Hobbies</h2>
+      <P class="text">Some of my favorite hobbies are:</P>
+       <ul>
+         <li>Red books</li>
+         <li>Watch movies or series</li>
+         <li>Spending time with family</li>
+       </ul>
+</section>        
 
-
-     <h2>Favorite Hobbies</h2>
-      <P>Some of my favorite hobbies are:</P>
-    <ul>
-        <li>Red books</li>
-        <li>Watch movies or series</li>
-        <li>Spending time with family</li>
-    </ul>
+ <div class="container">
       <h3>Red books</h3>
-       <p> One of my favorite hobbies is reading books, the topics that catch my attention the most are those that have to do with mystery and crime; One of my favorite books is "Child 44" it is a book that catches you from the moment you start reading it, the writer describes so well the places, situations and characters, that your head can totally recreate a real movie, and you don't want to stop reading it. If you are interested a little more about this book, you can click <a href="https://www.goodreads.com/book/show/2161733.Child_44" target="_blank"> here</a>. </p>
-        <figure>
-         <img src="https://m.media-amazon.com/images/I/61mwD-Tm-zL._AC_UF894,1000_QL80_.jpg" alt="Cover Book" width="200">
-        <Figcaption>Figure1. Book cover </Figcaption>
+       <p class="hobbies"> One of my favorite hobbies is reading books, the topics that catch my attention the most are those that have to do with mystery and crime; One of my favorite books is "Child 44" it is a book that catches you from the moment you start reading it, the writer describes so well the places, situations and characters, that your head can totally recreate a real movie, and you don't want to stop reading it. If you are interested a little more about this book, you can click <a href="https://www.goodreads.com/book/show/2161733.Child_44" target="_blank"> here</a>. </p>
+        <figure class="picture">
+         <img src="https://m.media-amazon.com/images/I/61mwD-Tm-zL._AC_UF894,1000_QL80_.jpg" class="image" alt="Cover Book">
+         <Figcaption class="size">Figure1. Book cover </Figcaption>
         </figure> 
-      <h3>Watch movies or series</h3>
-       <p>I love watching good movies and series, one of my favorite series is Breaking Bad, from the beginning it is interesting and I could never imagine what was going to happen, usually when I watch a movie or series I can guess what is going to happen next, but with this series the same did not happen, it is simply unpredictable. If you are interested a little more about this serie, you can click <a href="https://www.imdb.com/title/tt0903747/" target="_blank"> here</a>. </p>
-        <figure>
-         <img src="./images/Conducting a Website Audit.webp" alt="serie Breaking Bad" width="200">  
-        <figcaption>F2. Intro TVserie</figcaption>
-        </figure>
-  
 
-  <table border="1">
-    <tr>
-      <th colspan="2">IMPORTANT DATES</th>
-    </tr>
-    <tr>
-        <th>DATE</th>
-        <th>EVENT</th>
-    </tr>
-    <tr>
-        <td>Sept. 10/11</td>
-        <td>Birth of my first Child</td>       
-    </tr>
-    <tr>
-      <td>Oct. 26/13</td>
-      <td>Death of my Father</td>
-    </tr>
-    <tr>
-      <td>Mar. 12/14</td>
-      <td>Birth of my second Child</td>
-    </tr>
-  </table>
+      <h3>Watch movies or series</h3>
+       <p class="hobbies">I love watching good movies and series, one of my favorite series is Breaking Bad, from the beginning it is interesting and I could never imagine what was going to happen, usually when I watch a movie or series I can guess what is going to happen next, but with this series the same did not happen, it is simply unpredictable. If you are interested a little more about this serie, you can click <a href="https://www.imdb.com/title/tt0903747/" target="_blank"> here</a>. </p>
+        <figure class="picture">
+         <img src="./images/Conducting a Website Audit.webp" class="image" alt="serie Breaking Bad">  
+         <figcaption class="size">F2. Intro TVserie</figcaption>
+        </figure>
+
+      <h3>Spending time with family</h3>
+       <p class="hobbies">Obviously my family plays a very important role in my life, therefore, I love spending time with them, we make plans such as:</p>
+         <ol>
+           <li>Going to the park</li>
+           <li>Going to a mall</li>
+           <li>Getting know a new place</li>
+           <li>playing board games</li>
+           <li>Invent some game</li>
+         </ol>
+       <P class="hobbies">Any plan, even if it is simple, we enjoy it, how to watch a TV show, a series or movie together.</P>
+</div>      
+<!-- The FIRTS table was moved (up) -->
+   <h2>My business</h2>
+      <p class="text">In Colombia I have a business for 7 years, of articles in lency cloth, all the products are made by hand, many of my works are published on an Instagram page, my company is called "Trend Design" if you want to know a little more about my business click <a href="https://www.instagram.com/trend.design_/" target="_blank">here</a>.</p>
 
   <article>
     <footer>
-     <h2 style="color: aliceblue;">A little more about me</h2>
+     <h2>A little more about me</h2>
       <ul>
-       <li style="color: aliceblue;">caro_caro@gmail.com</li>
-       <li style="color: aliceblue;">@carolainghg</li>
+       <li>caro_caro@gmail.com</li>
+       <li>@carolainghg</li>
      </ul>
     
-      <p style="color: aliceblue;">Copyright© 20223 All rights reserved</p>
+      <p>Copyright© 20223 All rights reserved</p>
     </footer>
   </article>
   
-
+<!-- It was better organized, and more content added -->
 
 </body>
 </html>
