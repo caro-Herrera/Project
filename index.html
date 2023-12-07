@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Page</title>
+      <script src="./file.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap" rel="stylesheet">
@@ -16,7 +17,7 @@
       <ul>
         <li><a href="">About Me</a></li>
         <li><a href="">Favorite Hobbies</a></li>
-        <li><a href="">My business</a></li>
+        <li><button id="alert"><a href="">My business</a></button></li>
       </ul>
     </nav>
 <!-- changes to the list -->
@@ -85,7 +86,11 @@
 </div>      
 <!-- The FIRTS table was moved (up) -->
    <h2>My business</h2>
-      <p class="text">In Colombia I have a business for 7 years, of articles in lency cloth, all the products are made by hand, many of my works are published on an Instagram page, my company is called "Trend Design" if you want to know a little more about my business click <a href="https://www.instagram.com/trend.design_/" target="_blank">here</a>.</p>
+      <p class="text">In Colombia I have a business for 7 years, of articles in lency cloth, all the products are made by hand, many of my works are published on an Instagram page, my company is called <span id="insta-business">"Trend Design"</span>  if you want to know a little more about my business click <a href="https://www.instagram.com/trend.design_/" target="_blank">here</a>.</p>
+
+    <button id="counter">
+      <p id="counter-text">0</p>
+    </button>
 
   <article>
     <footer>
@@ -95,11 +100,14 @@
        <li>@carolainghg</li>
      </ul>
     
-      <p>Copyright© 20223 All rights reserved</p>
+      <p>Copyright© <span id="copyright"></span> All rights reserved</p>
     </footer>
   </article>
   
 <!-- It was better organized, and more content added -->
-
+<div>
+   <ol id="numbers"> 
+   </ol>
+</div>
 </body>
 </html>

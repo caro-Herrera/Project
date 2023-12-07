@@ -130,3 +130,18 @@ footer p{
     font-size: 10px;
 }
 
+/* Data entered for Lab. Java Script*/
+
+.even {
+    color:fuchsia;
+}
+
+.odd {
+    color: blue;
+}
+
+button p {font-size: 25px;
+}
+
+div ol {margin-left: 30px;
+}
