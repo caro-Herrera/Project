@@ -26,11 +26,11 @@ h3 {
 }
 
 p.text {
-    color:fuchsia; padding: 15px;
+    color:#B300B3; padding: 15px;
 }
 
 p.hobbies {
-    color:darkmagenta; padding: 15px;
+    color:#B300B3; padding: 15px;
 }
 /* multiple font color tests*/
 
@@ -90,11 +90,11 @@ table td {
 /*Table finished*/
 
 section li {
-    color: fuchsia; margin-left: 30px;
+    color: #B300B3; margin-left: 30px;
 }
 
 div li {
-    color:darkmagenta; margin-left: 30px;
+    color:#B300B3; margin-left: 30px;
 }
 
 .image {
@@ -127,13 +127,13 @@ footer li {
 
 footer p{
     text-align: center; padding: 5px;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 /* Data entered for Lab. Java Script*/
 
 .even {
-    color:fuchsia;
+    color:#B300B3;
 }
 
 .odd {
